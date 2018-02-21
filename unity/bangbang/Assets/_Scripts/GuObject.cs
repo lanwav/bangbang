@@ -20,9 +20,9 @@ public class GuObject : MonoBehaviour {
         tm = 0f;
 
         m_trailRenderer = this.GetComponent<TrailRenderer>();
-        m_trailRenderer.time = delayTime * 2f;
-        m_trailRenderer.startWidth = 0.3f;
-        m_trailRenderer.endWidth = 0.3f;
+        //m_trailRenderer.time = delayTime * 2f;
+        //m_trailRenderer.startWidth = 0.3f;
+        //m_trailRenderer.endWidth = 0.3f;
     }
 	
 	// Update is called once per frame
